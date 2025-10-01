@@ -56,7 +56,7 @@ terraform apply
 - Network filtering by IP/port
 - Threat intelligence-based filtering
 
-## 💼 Resume Talking Points
+## 💼 Talking Points
 
 - Designed enterprise hub-spoke architecture supporting 1000+ VMs
 - Implemented micro-segmentation reducing attack surface by 75%
