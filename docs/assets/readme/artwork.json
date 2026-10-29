@@ -1,0 +1,77 @@
+{
+  "title": "Azure Hub-Spoke Network",
+  "titleFontSize": 78,
+  "mobileTitle": [
+    "Azure hub-spoke",
+    "network"
+  ],
+  "eyebrow": "NETWORK SECURITY",
+  "tagline": "Network boundaries, made explicit.",
+  "mobileTagline": [
+    "Network boundaries,",
+    "made explicit."
+  ],
+  "description": [
+    "A hub-and-spoke network reference for Azure.",
+    "Terraform, segmentation and firewall configuration notes."
+  ],
+  "mobileDescription": [
+    "An Azure hub-and-spoke network reference.",
+    "Terraform, segmentation and firewall notes."
+  ],
+  "footerLeft": "TERRAFORM",
+  "footerMiddle": "AZURE / NETWORKING",
+  "footerRight": "HUB / FIREWALL / SPOKES",
+  "diagram": [
+    "HUB",
+    "RULES",
+    "SPOKES"
+  ],
+  "summary": "An Azure hub-and-spoke reference architecture with Terraform source and documented network-segmentation and firewall patterns.",
+  "cards": [
+    {
+      "slug": "architecture",
+      "category": "ARCHITECTURE",
+      "title": "Follow the architecture",
+      "lines": [
+        "Review the components and the",
+        "documented processing or access flow."
+      ],
+      "footer": "DESIGN / REFERENCE FLOW",
+      "href": "hub-spoke-architecture.svg"
+    },
+    {
+      "slug": "source",
+      "category": "IMPLEMENTATION",
+      "title": "Read the Terraform source",
+      "lines": [
+        "Inspect infrastructure declarations",
+        "and their configuration inputs."
+      ],
+      "footer": "SOURCE / REFERENCE CODE",
+      "href": "terraform/main.tf"
+    },
+    {
+      "slug": "setup",
+      "category": "GET STARTED",
+      "title": "Review the setup guide",
+      "lines": [
+        "Read prerequisites and setup steps",
+        "before adapting the example."
+      ],
+      "footer": "SETUP / CONFIGURATION",
+      "href": "#setup-guide"
+    },
+    {
+      "slug": "controls",
+      "category": "SECURITY NOTES",
+      "title": "Read the control notes",
+      "lines": [
+        "Review documented segmentation",
+        "and firewall-rule patterns."
+      ],
+      "footer": "NETWORK / CONTROL NOTES",
+      "href": "#security-guide"
+    }
+  ]
+}
